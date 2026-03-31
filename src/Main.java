@@ -1,8 +1,7 @@
 import ohatra.Etude;
 
 import java.util.Scanner;
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.++--==
+
 public class Main {
     public static void main(String[] args) {
 
@@ -16,8 +15,6 @@ public class Main {
 
         System.out.print("Votre etude supérieur : ");
         String etude = scaner.nextLine();
-
-
         System.out.println("Bonjour je m'appelle "+ a.afficher(prenom)+" et " +e.afficher_etude(etude));
     }
 }
